@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;;
+}
+/* Hero Section */
+.hero {
+  background: url("./resources/images/bg-masthead.jpg");
+  background-size: 100% 100%;
+  padding: 200px 0;
+}
+
+.hero .container .row h1 {
+  /* letter-spacing: 4px; */
+  text-align: center;
+}
+
+/* Feature Section */
+.feature {
+  background-color: #f8f9fa;
+  padding: 112px 0;
+}
+
+.feature .row1,
+.row2,
+.row3 {
+  color: #212529;
+  text-align: center;
+  padding: 0 12px;
+}
+
+@media (max-width: 740px) {
+  .signup .container .row button {
+    width: 100%;
+  }
+
+  .hero .container .row button {
+    width: 100%;
+  }
+
+  /* .footer {
+    background-color: #f8f9fa;
+    padding: 64px 0;
+    disp
+  } */
+  .footer .container .row .socials {
+    text-align: center;
+    margin: 0 auto;
+  }
+ 
+}
+
+
+.feature .feature_row i {
+  color: #0d6efd;
+  font-size: 72px;
+  margin: 0 auto;
+}
+
+.feature .feature_row h3 {
+  color: #212529;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  margin: 0 0 8px;
+}
+
+.feature .feature_row p {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* Main Section */
+.main_section .main_section_container {
+  background-color: #fff;
+}
+
+/* First Row of Main Section */
+
+.main_section .main_section_container .col-md-12 .row1 .col-md-6:nth-child(1) {
+  padding: 112px;
+}
+
+.main_section .main_section_container .col-md-12 .row1 .col-md-6:nth-child(2) {
+  height: 480px;
+  background-image: url("./resources/images/bg-showcase-1.jpg");
+  background-size: 100% 100%;
+}
+
+.main_section .main_section_container .col-md-12 .row1 .col-md-6 h2 {
+  color: #212529;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  margin: 0 0 8px;
+}
+
+.main_section .main_section_container .col-md-12 .row1 .col-md-6 p {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* Second Row of Main Section */
+
+.main_section .main_section_container .col-md-12 .row2 .col-md-6:nth-child(1) {
+  height: 480px;
+  background-image: url("./resources/images/bg-showcase-2.jpg");
+  background-size: 100% 100%;
+}
+
+.main_section .main_section_container .col-md-12 .row2 .col-md-6:nth-child(2) {
+  padding: 112px;
+}
+
+.main_section .main_section_container .col-md-12 .row2 .col-md-6 h2 {
+  color: #212529;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  margin: 0 0 8px;
+}
+
+.main_section .main_section_container .col-md-12 .row2 .col-md-6 p {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* Third Row of Main Section */
+
+.main_section .main_section_container .col-md-12 .row3 .col-md-6:nth-child(1) {
+  padding: 112px;
+}
+
+.main_section .main_section_container .col-md-12 .row3 .col-md-6:nth-child(2) {
+  height: 480px;
+  background-image: url("./resources/images/bg-showcase-3.jpg");
+  background-size: 100% 100%;
+}
+
+.main_section .main_section_container .col-md-12 .row3 .col-md-6 h2 {
+  color: #212529;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  margin: 0 0 8px;
+}
+
+.main_section .main_section_container .col-md-12 .row3 .col-md-6 p {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* First Row of Main Section (Smaller Devices) */
+
+
+.main_section .main_section_container .col-md-12 .row1_smaller .col-md-6:nth-child(2) {
+  height: 250px;
+  padding: 30px;
+  background-size: 100% 100%;
+}
+
+.main_section .main_section_container .col-md-12 .row1_smaller .col-md-6 h2 {
+  color: #212529;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  margin: 0 0 8px;
+}
+
+.main_section .main_section_container .col-md-12 .row1_smaller .col-md-6 p {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* Second Row of Main Section */
+
+.main_section .main_section_container .col-md-12 .row2_smaller .col-md-6:nth-child(1) {
+  height: 380px;
+  background-size: 100% 100%;
+}
+
+.main_section .main_section_container .col-md-12 .row2_smaller .col-md-6:nth-child(2) {
+  padding: 30px;
+}
+
+.main_section .main_section_container .col-md-12 .row2_smaller .col-md-6 h2 {
+  color: #212529;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  margin: 60px 0 8px;
+}
+
+.main_section .main_section_container .col-md-12 .row2_smaller .col-md-6 p {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* Third Row of Main Section */
+
+
+.main_section .main_section_container .col-md-12 .row3_smaller .col-md-6:nth-child(2) {
+  height: 250px;
+  background-size: 100% 100%;
+  padding: 30px;
+}
+
+.main_section .main_section_container .col-md-12 .row3_smaller .col-md-6 h2 {
+  color: #212529;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  margin: 0 0 8px;
+}
+
+.main_section .main_section_container .col-md-12 .row3_smaller .col-md-6 p {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* Feedback Section */
+.feedback {
+  background-color: #f8f9fa;
+  padding: 112px 0;
+  text-align: center;
+}
+
+.feedback .container h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.feedback .container .row img {
+  width: 199px;
+  height: 199px;
+  box-shadow: #adb5bd 0 5px 5px 0;
+  margin: 0 0 16px;
+}
+
+.feedback .container .row h5 {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0 0 8px;
+}
+
+/* Sign Up Section */
+.signup {
+  background: url('./resources/images/bg-masthead.jpg') no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.signup .container .row h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  margin: 0 0 24px;
+  padding-top: 60px;
+}
+
+.signup .container .row form {
+  margin-bottom: 80px;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f9fa;
+  padding: 64px 0;
+}
+
+.footer .container .row .footer_left-list li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.footer .container .row p {
+  margin-left: 40px;
+}
+
+.footer .container .row .socials {
+  color: #0a58ca;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.footer .container .row .socials i {
+  margin-left: 18px;
+}
